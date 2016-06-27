@@ -19,6 +19,10 @@
     <object>objects\oWhale</object>
     <object>objects\oHand</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rmSplash</room>
+    <room>rooms\rmGame</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
