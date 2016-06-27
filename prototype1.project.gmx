@@ -12,7 +12,10 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\ct_main</object>
+    <objects name="controllers">
+      <object>objects\ctMain</object>
+      <object>objects\ctInit</object>
+    </objects>
     <object>objects\oWhale</object>
     <object>objects\oHand</object>
   </objects>
