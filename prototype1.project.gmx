@@ -5,11 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spWhale</sprite>
+    <sprite>sprites\spHand</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\ct_main</object>
+    <object>objects\oWhale</object>
+    <object>objects\oHand</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
