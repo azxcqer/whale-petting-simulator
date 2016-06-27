@@ -9,8 +9,15 @@
     <sprite>sprites\spWhale</sprite>
     <sprite>sprites\spHand</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_temp</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\backgrounder.gml</script>
+    <script>scripts\draw_text_shadow.gml</script>
+    <script>scripts\floaty.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="controllers">
       <object>objects\ctMain</object>
