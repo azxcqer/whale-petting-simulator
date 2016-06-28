@@ -19,6 +19,9 @@
     <script>scripts\floaty.gml</script>
     <script>scripts\shake.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_def</font>
+  </fonts>
   <objects name="objects">
     <objects name="controllers">
       <object>objects\ctMain</object>

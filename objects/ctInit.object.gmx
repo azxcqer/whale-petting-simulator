@@ -78,6 +78,7 @@ global.skipTo = global.w3Start
             <kind>1</kind>
             <string>///other initialization
 window_set_cursor(cr_none)
+draw_set_font(f_def)
 </string>
           </argument>
         </arguments>
