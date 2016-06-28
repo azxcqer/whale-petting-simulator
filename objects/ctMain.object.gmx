@@ -83,6 +83,7 @@ if keyboard_check_pressed(vk_anykey) {
     
     else {
         petScore++
+        oWhale.happyTimer = room_speed * 1
     }
 }
 </string>
