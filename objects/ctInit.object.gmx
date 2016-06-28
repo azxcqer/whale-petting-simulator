@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///general variables
-/*
 global.debugger = false
+/*
 global.lastroom = room
 global.exitvsp = 0
 global.cutscene = false
