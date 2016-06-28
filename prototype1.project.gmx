@@ -9,6 +9,7 @@
     <sprite>sprites\spWhale</sprite>
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
+    <sprite>sprites\sBanana</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
