@@ -88,6 +88,11 @@ if keyboard_check_pressed(vk_anykey) {
         oHand.shakeActive = true
     }
 }
+            <string>///view
+    view_enabled = true;
+    view_visible[0] = true;
+    view_wview[0] = 300;
+    view_hview[0] = 300;
 </string>
           </argument>
         </arguments>
@@ -108,11 +113,6 @@ if keyboard_check_pressed(vk_anykey) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///view
-    view_enabled = true;
-    view_visible[0] = true;
-    view_wview[0] = 300;
-    view_hview[0] = 300;
 </string>
           </argument>
         </arguments>
