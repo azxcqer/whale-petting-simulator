@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spWhale</sprite>
     <sprite>sprites\spHand</sprite>
+    <sprite>sprites\spPlaceholder</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -29,6 +30,7 @@
     </objects>
     <object>objects\oWhale</object>
     <object>objects\oHand</object>
+    <object>objects\oFloaty</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
