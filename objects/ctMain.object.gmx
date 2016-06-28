@@ -28,6 +28,7 @@
             <string>///initializaton
 room_speed=60
 backgrounder()
+cheatInit()
 </string>
           </argument>
         </arguments>
@@ -120,6 +121,7 @@ if keyboard_check_pressed(vk_anykey) {
         oWhale.happyTimer = room_speed * 1
         oHand.shakeStep = 0
         oHand.shakeActive = true
+        cheat()
     }
 }
 </string>
