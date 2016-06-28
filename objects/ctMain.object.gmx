@@ -55,6 +55,31 @@ petScore = 0
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///view
+    view_enabled = true;
+    view_visible[0] = true;
+    view_wview[0] = 300;
+    view_hview[0] = 300;
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -81,6 +106,15 @@ if keyboard_check_pressed(vk_anykey) {
         game_end()
     }
     
+    //modifier
+    if keyboard_check(vk_shift) {
+        
+        if keyboard_check_pressed(ord('R')) {
+            room_restart()
+        }
+    
+    }
+    
     else {
         petScore++
         oWhale.happyTimer = room_speed * 1
@@ -88,31 +122,6 @@ if keyboard_check_pressed(vk_anykey) {
         oHand.shakeActive = true
     }
 }
-            <string>///view
-    view_enabled = true;
-    view_visible[0] = true;
-    view_wview[0] = 300;
-    view_hview[0] = 300;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
 </string>
           </argument>
         </arguments>
