@@ -75,7 +75,15 @@ petScore = 0
             <kind>1</kind>
             <string>///controls
 if keyboard_check_pressed(vk_anykey) {
-    petScore++
+
+    //quit
+    if keyboard_check_pressed(vk_escape) {
+        game_end()
+    }
+    
+    else {
+        petScore++
+    }
 }
 </string>
           </argument>
