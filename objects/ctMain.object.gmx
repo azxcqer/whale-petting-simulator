@@ -125,9 +125,33 @@ if keyboard_check_pressed(vk_anykey) {
         oWhale.happyTimer = room_speed * 1
         oHand.shakeStep = 0
         oHand.shakeActive = true
-        cheat()
+        cheatTimer = 1 * room_speed
+        cheatImput()
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///other things
+
+cheat()
 </string>
           </argument>
         </arguments>
@@ -179,7 +203,7 @@ if global.debugger {
         draw_text_shadow(window_get_width()/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
     }
     else {
-        draw_text_shadow(window_get_width()/2,20,cheatString,c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(window_get_width()/2,20,cheatString + " " + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
     }
 }
 </string>

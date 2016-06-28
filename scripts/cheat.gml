@@ -18,8 +18,8 @@ else {
 
 #define cheatInit
 ///cheatInit()
-cheatTimer = room_speed*1
-cheatString = ""
+cheatTimer = 0
+cheatString = "herpderp"
 cheatMaxLength = 10
 
 #define cheatImput
