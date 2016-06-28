@@ -41,3 +41,6 @@ if b >= 1 {
 else {
     return false
 }
+
+#define floatyCreate
+instance_create(irandom(room_width),irandom(room_height), oFloaty)
