@@ -10,6 +10,26 @@
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
     <sprite>sprites\sBanana</sprite>
+    <sprites name="Hats">
+      <sprite>sprites\sTopHat</sprite>
+      <sprite>sprites\sCrow</sprite>
+      <sprite>sprites\sGorro</sprite>
+      <sprite>sprites\sCoco</sprite>
+      <sprite>sprites\sBow</sprite>
+      <sprite>sprites\sFez</sprite>
+      <sprite>sprites\sCat</sprite>
+      <sprite>sprites\sSombrero</sprite>
+      <sprite>sprites\sStraw</sprite>
+      <sprite>sprites\sBandana</sprite>
+      <sprites name="Anime">
+        <sprite>sprites\sLuffy</sprite>
+        <sprites name="Jojo">
+          <sprite>sprites\sJotaro</sprite>
+          <sprite>sprites\sZepelli</sprite>
+          <sprite>sprites\sCaesar</sprite>
+        </sprites>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
