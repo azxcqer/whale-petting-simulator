@@ -34,6 +34,7 @@
     <object>objects\oWhale</object>
     <object>objects\oHand</object>
     <object>objects\oFloaty</object>
+    <object>objects\oHat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
