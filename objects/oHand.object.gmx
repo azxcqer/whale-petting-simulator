@@ -48,7 +48,7 @@ shakeInit()
           <argument>
             <kind>1</kind>
             <string>///following hand
-yDif = y - oWhale.y
+followyInit(oWhale)
 </string>
           </argument>
         </arguments>
@@ -72,7 +72,7 @@ yDif = y - oWhale.y
           <argument>
             <kind>1</kind>
             <string>///following
-y = oWhale.y + yDif
+followy()
 </string>
           </argument>
         </arguments>
