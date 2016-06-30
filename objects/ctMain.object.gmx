@@ -123,10 +123,9 @@ if keyboard_check_pressed(vk_anykey) {
     else {
         petScore++
         oWhale.happyTimer = room_speed * 1
-        oHand.shakeStep = 0
-        oHand.shakeActive = true
         cheatTimer = 1 * room_speed
         cheatImput()
+        oHand.go = true
     }
 }
 </string>
