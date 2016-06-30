@@ -42,6 +42,7 @@
     <script>scripts\shake.gml</script>
     <script>scripts\cheat.gml</script>
     <script>scripts\followy.gml</script>
+    <script>scripts\hatChange.gml</script>
     <script>scripts\floatyCreate.gml</script>
   </scripts>
   <fonts name="fonts">

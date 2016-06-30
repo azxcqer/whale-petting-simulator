@@ -8,6 +8,10 @@ if cheatTimer > 0 {
         var a = floatyCreate(sBanana);        
     }
     
+    //hatsblock
+    if cheatCheck("tophat"){
+        hatChange(sTopHat)
+    }
 }
 else {
     cheatString = ""
