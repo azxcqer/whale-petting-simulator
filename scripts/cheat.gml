@@ -13,6 +13,13 @@ if cheatTimer > 0 {
     if cheatCheck("tophat"){
         hatChange(sTopHat)
     }
+    //cleaner
+    if cheatCheck("clean"){
+        with oFloaty {
+            instance_destroy()
+        }
+        global.hat = false
+    }
 }
 else {
     cheatString = ""
