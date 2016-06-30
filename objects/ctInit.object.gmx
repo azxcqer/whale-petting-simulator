@@ -27,35 +27,6 @@
             <kind>1</kind>
             <string>///general variables
 global.debugger = false
-/*
-global.lastroom = room
-global.exitvsp = 0
-global.cutscene = false
-global.paused = false
-global.curWorld = -1
-global.gameon = false
-
-//Debuging and testing vars
-//Set to false on release
-global.disclaimerSkip = false
-global.testing = false
-
-//bouncy variables
-global.bpDefault = 0.5
-global.bpClear = 3
-global.bp = global.bpDefault
-
-//worlds variables
-global.w1Start = w1_1
-global.w2Start = w2_1
-global.w3Start = w3_1
-global.w4Start = w4_0
-global.wGameJamStart = w0_1_old
-//global.w2start = w2_1
-
-global.worldClear = -1
-
-global.skipTo = global.w3Start
 global.hat = false
 </string>
           </argument>
