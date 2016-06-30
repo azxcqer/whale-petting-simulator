@@ -13,6 +13,61 @@ if cheatTimer > 0 {
     if cheatCheck("tophat"){
         hatChange(sTopHat)
     }
+    
+    if cheatCheck("crow"){
+        hatChange(sCrow)
+    }
+    //temp
+    if cheatCheck("gorro"){
+        hatChange(sGorro)
+    }
+    //temp
+    if cheatCheck("coco"){
+        hatChange(sCoco)
+    }
+    
+    if cheatCheck("bow"){
+        hatChange(sBow)
+    }
+    
+    if cheatCheck("fez"){
+        hatChange(sFez)
+    }
+    
+    if cheatCheck("cat"){
+        hatChange(sCat)
+    }
+    
+    if cheatCheck("sombrero"){
+        hatChange(sSombrero)
+    }
+    
+    if cheatCheck("straw"){
+        hatChange(sStraw)
+    }
+    
+    if cheatCheck("bandana"){
+        hatChange(sBandana)
+    }
+    
+    //anime block
+    if cheatCheck("luffy"){
+        hatChange(sLuffy)
+    }
+    
+    //jojo
+    if cheatCheck("jotaro"){
+        hatChange(sJotaro)
+    }
+    
+    if cheatCheck("zepelli"){
+        hatChange(sZepelli)
+    }
+    
+    if cheatCheck("caesar"){
+        hatChange(sCaesar)
+    }
+    
     //cleaner
     if cheatCheck("clean"){
         with oFloaty {
