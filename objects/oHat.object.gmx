@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>followyInit(oWhale)
+            <string>followyInit(oWhale,2)
 </string>
           </argument>
         </arguments>

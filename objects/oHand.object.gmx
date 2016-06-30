@@ -48,7 +48,7 @@ shakeInit()
           <argument>
             <kind>1</kind>
             <string>///following hand
-followyInit(oWhale)
+followyInit(oWhale,2)
 </string>
           </argument>
         </arguments>
