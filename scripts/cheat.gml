@@ -3,9 +3,10 @@
 if cheatTimer > 0 {
     cheatTimer --
     //check the cheats
+    //floaty block
     //banana cheat
     if cheatCheck("banana"){
-        var a = floatyCreate(sBanana);        
+        floatyCreate(sBanana);        
     }
     
     //hatsblock
