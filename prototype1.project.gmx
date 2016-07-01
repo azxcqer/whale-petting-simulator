@@ -10,6 +10,7 @@
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
     <sprite>sprites\sBanana</sprite>
+    <sprite>sprites\sHatMarker1</sprite>
     <sprites name="Hats">
       <sprite>sprites\sTopHat</sprite>
       <sprite>sprites\sCrow</sprite>
@@ -30,6 +31,7 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprite>sprites\sHatMarker2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>

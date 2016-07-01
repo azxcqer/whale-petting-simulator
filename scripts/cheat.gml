@@ -68,6 +68,10 @@ if cheatTimer > 0 {
         hatChange(sCaesar)
     }
     
+    else if cheatCheck("hat"){
+        randomHat(oHat.sprite_index)
+    }
+    
     //cleaner
     if cheatCheck("clean"){
         with oFloaty {
