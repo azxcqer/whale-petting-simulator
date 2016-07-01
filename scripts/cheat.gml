@@ -10,61 +10,62 @@ if cheatTimer > 0 {
     }
     
     //hatsblock
-    if cheatCheck("tophat"){
+    
+    else if cheatCheck("tophat"){
         hatChange(sTopHat)
     }
     
-    if cheatCheck("crow"){
+    else if cheatCheck("crow"){
         hatChange(sCrow)
     }
     //temp
-    if cheatCheck("gorro"){
+    else if cheatCheck("gorro"){
         hatChange(sGorro)
     }
     //temp
-    if cheatCheck("coco"){
+    else if cheatCheck("coco"){
         hatChange(sCoco)
     }
     
-    if cheatCheck("bow"){
+    else if cheatCheck("bow"){
         hatChange(sBow)
     }
     
-    if cheatCheck("fez"){
+    else if cheatCheck("fez"){
         hatChange(sFez)
     }
     
-    if cheatCheck("cat"){
+    else if cheatCheck("cat"){
         hatChange(sCat)
     }
     
-    if cheatCheck("sombrero"){
+    else if cheatCheck("sombrero"){
         hatChange(sSombrero)
     }
     
-    if cheatCheck("straw"){
+    else if cheatCheck("straw"){
         hatChange(sStraw)
     }
     
-    if cheatCheck("bandana"){
+    else if cheatCheck("bandana"){
         hatChange(sBandana)
     }
     
     //anime block
-    if cheatCheck("luffy"){
+    else if cheatCheck("luffy"){
         hatChange(sLuffy)
     }
     
     //jojo
-    if cheatCheck("jotaro"){
+    else if cheatCheck("jotaro"){
         hatChange(sJotaro)
     }
     
-    if cheatCheck("zepelli"){
+    else if cheatCheck("zepelli"){
         hatChange(sZepelli)
     }
     
-    if cheatCheck("caesar"){
+    else if cheatCheck("caesar"){
         hatChange(sCaesar)
     }
     
@@ -73,7 +74,7 @@ if cheatTimer > 0 {
     }
     
     //cleaner
-    if cheatCheck("clean"){
+    else if cheatCheck("clean"){
         with oFloaty {
             instance_destroy()
         }
