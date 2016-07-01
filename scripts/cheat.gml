@@ -114,6 +114,7 @@ if b >= 1 {
     unless i check for applepie first, because if I do it will never trigger
     */
     cheatString = ""
+    audio_play_sound(sdPop,5,false)
     return true
 }
 else {
