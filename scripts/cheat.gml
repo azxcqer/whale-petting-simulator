@@ -99,19 +99,23 @@ if cheatTimer > 0 {
 }
 else {
     cheatString = ""
+    keyboard_string = ""
 }
 
 #define cheatInit
 ///cheatInit()
 cheatTimer = 0
 cheatString = "herpderp"
-cheatMaxLength = 100
+cheatMaxLength = 25
 
 #define cheatImput
 var a = keyboard_string,
     b = string_length(a)
 
 a = string_lower(string_copy(a, b, 1));
+if a > cheatMaxLength {
+    keyboard_string=""
+}
 
 cheatString += a
 
@@ -130,6 +134,7 @@ if b >= 1 {
     unless i check for applepie first, because if I do it will never trigger
     */
     cheatString = ""
+    keyboard_string = ""
     audio_play_sound(sdPop,5,false)
     return true
 }
