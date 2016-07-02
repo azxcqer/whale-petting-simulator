@@ -12,6 +12,9 @@
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
     <sprite>sprites\sBanana</sprite>
+    <sprites name="floaters">
+      <sprite>sprites\sApple</sprite>
+    </sprites>
     <sprite>sprites\sHatMarker1</sprite>
     <sprites name="Hats">
       <sprite>sprites\sTopHat</sprite>

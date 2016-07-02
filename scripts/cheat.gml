@@ -9,6 +9,10 @@ if cheatTimer > 0 {
         floatyCreate(sBanana);        
     }
     
+    else if cheatCheck("apple"){
+        floatyCreate(sApple);
+    }
+    
     //hatsblock
     
     else if cheatCheck("tophat"){
