@@ -14,6 +14,10 @@
     <sprites name="floaters">
       <sprite>sprites\sBanana</sprite>
       <sprite>sprites\sApple</sprite>
+      <sprites name="ubertalos">
+        <sprite>sprites\sHeart</sprite>
+        <sprite>sprites\sBone</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sHatMarker1</sprite>
     <sprites name="Hats">

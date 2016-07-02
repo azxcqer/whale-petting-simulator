@@ -13,6 +13,13 @@ if cheatTimer > 0 {
         floatyCreate(sApple);
     }
     
+    else if cheatCheck("goodtime"){
+        floatyCreate(sHeart);
+    }
+    
+    else if cheatCheck("badtime"){
+        floatyCreate(sBone);
+    }
     //hatsblock
     
     else if cheatCheck("tophat"){
