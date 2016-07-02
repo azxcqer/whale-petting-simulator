@@ -31,6 +31,7 @@
       <sprite>sprites\sSombrero</sprite>
       <sprite>sprites\sStraw</sprite>
       <sprite>sprites\sBandana</sprite>
+      <sprite>sprites\sEgg</sprite>
       <sprites name="Anime">
         <sprite>sprites\sLuffy</sprite>
         <sprites name="Jojo">

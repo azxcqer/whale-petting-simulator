@@ -80,6 +80,10 @@ if cheatTimer > 0 {
         hatChange(sCaesar)
     }
     
+    else if cheatCheck("egg"){
+        hatChange(sEgg)
+    }
+    
     else if cheatCheck("hat"){
         randomHat(oHat.sprite_index)
     }
