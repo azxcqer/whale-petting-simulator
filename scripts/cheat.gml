@@ -109,7 +109,7 @@ if string_length(cheatString) > cheatMaxLength {
 }
 
 #define cheatCheck
-///check if the code is in
+///cheatCheck("word")
 var a = argument0,
     b = string_count(a, cheatString)
     
