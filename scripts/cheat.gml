@@ -78,7 +78,8 @@ if cheatTimer > 0 {
     }
     
     //cleaner
-    else if cheatCheck("clean"){
+    else if cheatCheck("clean")
+    or cheatCheck("clear"){
         with oFloaty {
             instance_destroy()
         }
