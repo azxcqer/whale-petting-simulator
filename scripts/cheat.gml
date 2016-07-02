@@ -107,7 +107,7 @@ cheatMaxLength = 100
 var a = keyboard_string,
     b = string_length(a)
 
-a = string_copy(a, b, 1);
+a = string_lower(string_copy(a, b, 1));
 
 cheatString += a
 
