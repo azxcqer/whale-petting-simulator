@@ -11,8 +11,8 @@
     <sprite>sprites\spWhale</sprite>
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
-    <sprite>sprites\sBanana</sprite>
     <sprites name="floaters">
+      <sprite>sprites\sBanana</sprite>
       <sprite>sprites\sApple</sprite>
     </sprites>
     <sprite>sprites\sHatMarker1</sprite>
