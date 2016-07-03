@@ -96,6 +96,10 @@ if cheatTimer > 0 {
         }
         global.hat = false
     }
+    
+    else if cheatCheck("repeat"){
+        cheatString = cheatLast
+    }
 }
 else {
     cheatString = ""
@@ -107,6 +111,7 @@ else {
 cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
+cheatLast = ""
 
 #define cheatImput
 var a = keyboard_string,
@@ -133,6 +138,9 @@ if b >= 1 {
     this is okay for now, but kinda limiting since I can't use, for ex, apple and then applepie,
     unless i check for applepie first, because if I do it will never trigger
     */
+    if !string_count("repeat",cheatString) >= 1 {
+        cheatLast = cheatString
+    }
     cheatString = ""
     keyboard_string = ""
     audio_play_sound(sdPop,5,false)
