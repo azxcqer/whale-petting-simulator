@@ -62,6 +62,10 @@ if cheatTimer > 0 {
         hatChange(sBandana)
     }
     
+    else if cheatCheck("cap"){
+        hatChange(sCap)
+    }
+    
     //anime block
     else if cheatCheck("gomugomu"){
         hatChange(sGomu)

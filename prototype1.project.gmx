@@ -32,6 +32,7 @@
       <sprite>sprites\sStraw</sprite>
       <sprite>sprites\sBandana</sprite>
       <sprite>sprites\sEgg</sprite>
+      <sprite>sprites\sCap</sprite>
       <sprites name="Anime">
         <sprite>sprites\sGomu</sprite>
         <sprite>sprites\sNinja</sprite>
