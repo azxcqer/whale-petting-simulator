@@ -33,15 +33,21 @@
       <sprite>sprites\sBandana</sprite>
       <sprite>sprites\sEgg</sprite>
       <sprites name="Anime">
-        <sprite>sprites\sLuffy</sprite>
+        <sprite>sprites\sGomu</sprite>
+        <sprite>sprites\sNinja</sprite>
+        <sprite>sprites\sTrainer</sprite>
         <sprites name="Jojo">
-          <sprite>sprites\sJotaro</sprite>
+          <sprite>sprites\sOra</sprite>
           <sprite>sprites\sZepelli</sprite>
           <sprite>sprites\sCaesar</sprite>
+        </sprites>
+        <sprites name="Games">
+          <sprite>sprites\sRedCap</sprite>
         </sprites>
       </sprites>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
+    <sprite>sprites\cap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>

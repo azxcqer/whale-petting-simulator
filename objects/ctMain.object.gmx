@@ -173,7 +173,13 @@ cheat()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text_shadow(window_get_width()/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
+            <string>//actual gui
+var a = window_get_width(),
+    b = window_get_height();
+//score    
+draw_text_shadow(a/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
+//last cheat
+draw_text_shadow(1, b, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 </string>
           </argument>
         </arguments>

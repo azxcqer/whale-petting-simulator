@@ -63,13 +63,21 @@ if cheatTimer > 0 {
     }
     
     //anime block
-    else if cheatCheck("luffy"){
-        hatChange(sLuffy)
+    else if cheatCheck("gomugomu"){
+        hatChange(sGomu)
+    }
+    
+    else if cheatCheck("dattebayo"){
+        hatChange(sNinja)
+    }
+    
+    else if cheatCheck("pika"){
+        hatChange(sTrainer)
     }
     
     //jojo
-    else if cheatCheck("jotaro"){
-        hatChange(sJotaro)
+    else if cheatCheck("oraoraora"){
+        hatChange(sOra)
     }
     
     else if cheatCheck("zepelli"){
@@ -87,6 +95,12 @@ if cheatTimer > 0 {
     else if cheatCheck("hat"){
         randomHat(oHat.sprite_index)
     }
+    
+    //game block
+    
+    else if cheatCheck("mother"){
+        hatChange(sRedCap)
+    }   
     
     //cleaner
     else if cheatCheck("clean")
@@ -111,7 +125,7 @@ else {
 cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
-cheatLast = ""
+cheatLast = "type 'hat'"
 
 #define cheatImput
 var a = keyboard_string,
