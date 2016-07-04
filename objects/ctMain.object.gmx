@@ -29,6 +29,7 @@
 room_speed=60
 backgrounder()
 cheatInit()
+global.hat = false
 </string>
           </argument>
         </arguments>
