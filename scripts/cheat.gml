@@ -129,7 +129,7 @@ else {
 cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
-cheatLast = "type 'hat'"
+cheatLast = "This whale should have some hats"
 
 #define cheatImput
 var a = keyboard_string,
