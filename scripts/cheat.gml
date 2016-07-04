@@ -33,9 +33,9 @@ if cheatTimer > 0 {
     else if cheatCheck("gorro"){
         hatChange(sGorro)
     }
-    //temp
-    else if cheatCheck("coco"){
-        hatChange(sCoco)
+    
+    else if cheatCheck("modest"){
+        hatChange(sBowler)
     }
     
     else if cheatCheck("bow"){
