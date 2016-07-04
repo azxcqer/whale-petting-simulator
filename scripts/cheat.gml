@@ -26,16 +26,17 @@ if cheatTimer > 0 {
         hatChange(sTopHat)
     }
     
-    else if cheatCheck("crow"){
+    else if cheatCheck("king")
+    or cheatCheck("queen"){
         hatChange(sCrow)
     }
-    //temp
-    else if cheatCheck("gorro"){
+    
+    else if cheatCheck("cold"){
         hatChange(sGorro)
     }
-    //temp
-    else if cheatCheck("coco"){
-        hatChange(sCoco)
+    
+    else if cheatCheck("modest"){
+        hatChange(sBowler)
     }
     
     else if cheatCheck("bow"){
@@ -46,7 +47,7 @@ if cheatTimer > 0 {
         hatChange(sFez)
     }
     
-    else if cheatCheck("cat"){
+    else if cheatCheck("meow"){
         hatChange(sCat)
     }
     
@@ -58,7 +59,7 @@ if cheatTimer > 0 {
         hatChange(sStraw)
     }
     
-    else if cheatCheck("bandana"){
+    else if cheatCheck("rambo"){
         hatChange(sBandana)
     }
     
