@@ -28,6 +28,7 @@
             <string>///general variables
 global.debugger = false
 global.hat = false
+randomize()
 </string>
           </argument>
         </arguments>
