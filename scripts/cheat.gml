@@ -157,7 +157,7 @@ if b >= 1 {
     unless i check for applepie first, because if I do it will never trigger
     */
     if !string_count("repeat",cheatString) >= 1 {
-        cheatLast = cheatString
+        cheatLast = a
     }
     cheatString = ""
     keyboard_string = ""
