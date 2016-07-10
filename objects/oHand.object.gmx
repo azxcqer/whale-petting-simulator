@@ -52,11 +52,11 @@ shakeInit()
           <argument>
             <kind>1</kind>
             <string>///step thingies
+event_inherited()
 if go {
     shakeTrigger()
     go = false
 }
-followy()
 shake()
 </string>
           </argument>
