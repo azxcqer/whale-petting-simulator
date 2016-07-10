@@ -76,8 +76,8 @@ petScore = 0
             <string>///view
     view_enabled = true;
     view_visible[0] = true;
-    view_wview[0] = 300;
-    view_hview[0] = 300;
+    view_wview[0] = 400;
+    view_hview[0] = 400;
 </string>
           </argument>
         </arguments>
