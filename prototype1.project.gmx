@@ -78,6 +78,7 @@
     <object>objects\oHand</object>
     <object>objects\oFloaty</object>
     <object>objects\oHat</object>
+    <object>objects\clAcessory</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
