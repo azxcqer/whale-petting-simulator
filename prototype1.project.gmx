@@ -64,6 +64,7 @@
     <script>scripts\hatChange.gml</script>
     <script>scripts\floatyCreate.gml</script>
     <script>scripts\notInciRandom_range.gml</script>
+    <script>scripts\resize.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_def</font>
