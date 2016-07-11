@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>coord = 2
-followyInit(oWhale,coord)
+followyInit(id,coord)
 owner = 0
+owned = false
 </string>
           </argument>
         </arguments>
@@ -51,6 +52,10 @@ owner = 0
           <argument>
             <kind>1</kind>
             <string>///followy
+if owned = false {
+    followyInit(owner, coord)
+    owned = true
+}
 followy()
 </string>
           </argument>
