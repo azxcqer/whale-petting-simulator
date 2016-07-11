@@ -36,13 +36,14 @@ hatRatio = 1
 
 var meSize = image_xscale,
     me = id,
-    handX = x + 100,
-    handY = y + 90,
-    hatX = x,
-    hatY = y,
     //cuz I can't math the vars
     handSize = handRatio * meSize,
-    hatSize = hatRatio * meSize;
+    hatSize = hatRatio * meSize,
+    handX = x + (80 * handSize),
+    handY = y + (80 * handSize),
+    hatX = x,
+    hatY = y,
+    ;
     
 myHand = instance_create(handX, handY, oHand)
 with myHand {
