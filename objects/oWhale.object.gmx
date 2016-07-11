@@ -29,33 +29,12 @@
 image_speed=0
 floatyInit()
 happyTimer = 0
-
+acessorized = false
 //the size ratio of the whale acessories
 handRatio = 0.25
 hatRatio = 1
 
-var meSize = image_xscale,
-    me = id,
-    //cuz I can't math the vars
-    handSize = handRatio * meSize,
-    hatSize = hatRatio * meSize,
-    handX = x + (80 * handSize),
-    handY = y + (80 * handSize),
-    hatX = x,
-    hatY = y,
-    ;
-    
-myHand = instance_create(handX, handY, oHand)
-with myHand {
-    resize(handSize)
-    owner = me
-}
 
-myHat = instance_create(hatX, hatY, oHat)
-with myHat{
-    resize(hatSize)
-    owner = me
-}
 </string>
           </argument>
         </arguments>
@@ -81,6 +60,53 @@ with myHat{
             <string>///floating
 floaty()
 floatyReset(5)
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///acessory creation
+if !acessorized {
+    var meSize = image_xscale,
+        me = id,
+        //cuz I can't math the vars
+        handSize = handRatio * meSize,
+        hatSize = hatRatio * meSize,
+        handX = x + (80 * handSize),
+        handY = y + (80 * handSize),
+        hatX = x,
+        hatY = y,
+        ;
+        
+    myHand = instance_create(handX, handY, oHand)
+    with myHand {
+        resize(handSize)
+        owner = me
+    }
+    
+    myHat = instance_create(hatX, hatY, oHat)
+    with myHat{
+        resize(hatSize)
+        owner = me
+    }
+    
+    acessorized = true
+}
 </string>
           </argument>
         </arguments>
