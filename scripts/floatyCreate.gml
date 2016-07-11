@@ -1,7 +1,7 @@
 //floatyCreate(floaty to create)
 
 var a = argument0,
-    b = instance_create(random(room_width),random(room_height), oFloaty),
+    b = randCreate(oFloaty),
     c = random_range(1,4)
     ;
 
