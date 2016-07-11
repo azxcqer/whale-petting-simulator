@@ -3,8 +3,18 @@
 if cheatTimer > 0 {
     cheatTimer --
     //check the cheats
+
+    //debug cheats
+    if global.debugger {
+    
+        if cheatCheck("whale"){
+            randCreate(oWhale)
+        }    
+    }
+    
     //floaty block
     //banana cheat
+    
     if cheatCheck("banana"){
         floatyCreate(sBanana);        
     }
