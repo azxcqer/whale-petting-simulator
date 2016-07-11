@@ -91,18 +91,21 @@ if !acessorized {
         handY = y + (80 * handSize),
         hatX = x,
         hatY = y,
+        relativeDepth = depth - 0.5
         ;
         
     myHand = instance_create(handX, handY, oHand)
     with myHand {
         resize(handSize)
         owner = me
+        depth = relativeDepth
     }
     
     myHat = instance_create(hatX, hatY, oHat)
     with myHat{
         resize(hatSize)
         owner = me
+        depth = relativeDepth
     }
     
     acessorized = true
