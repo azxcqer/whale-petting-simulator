@@ -8,7 +8,10 @@ if cheatTimer > 0 {
     if global.debugger {
     
         if cheatCheck("whale"){
-            randCreate(oWhale)
+            var w =  randCreate(oWhale)
+            with w {
+                depth = 5
+            }
         }    
     }
     
