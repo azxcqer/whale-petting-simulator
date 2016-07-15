@@ -30,6 +30,8 @@ room_speed=60
 backgrounder()
 cheatInit()
 global.hat = false
+
+//display_set_gui_size(window_get_height()*2, window_get_width()*2)
 </string>
           </argument>
         </arguments>
