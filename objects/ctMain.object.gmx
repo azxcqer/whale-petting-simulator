@@ -177,12 +177,13 @@ cheat()
           <argument>
             <kind>1</kind>
             <string>//actual gui
-var a = window_get_width(),
-    b = window_get_height();
+guiWidth = display_get_gui_width()
+guiHeight = display_get_gui_height()
+
 //score    
-draw_text_shadow(a/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
+draw_text_shadow(guiWidth/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
 //last cheat
-draw_text_shadow(1, b, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
+draw_text_shadow(1, guiHeight, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 </string>
           </argument>
         </arguments>
@@ -208,10 +209,10 @@ draw_text_shadow(1, b, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 if global.debugger {
     draw_text_simple(0,0,"debug")
     if cheatString = "" {
-        draw_text_shadow(window_get_width()/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(guiWidth/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
     }
     else {
-        draw_text_shadow(window_get_width()/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(guiHeigth/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
     }
 }
 </string>
