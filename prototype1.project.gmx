@@ -66,6 +66,7 @@
     <script>scripts\resize.gml</script>
     <script>scripts\randCreate.gml</script>
     <script>scripts\claim.gml</script>
+    <script>scripts\fpsWarning.gml</script>
     <script>scripts\guiSize.gml</script>
   </scripts>
   <fonts name="fonts">
