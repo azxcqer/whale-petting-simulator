@@ -211,7 +211,7 @@ if global.debugger {
         draw_text_shadow(guiWidth/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
     }
     else {
-        draw_text_shadow(guiHeigth/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
     }
 }
 </string>
