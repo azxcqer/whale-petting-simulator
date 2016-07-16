@@ -31,6 +31,7 @@ backgrounder()
 cheatInit()
 global.hat = false
 
+guiSize()
 //display_set_gui_size(window_get_height()*2, window_get_width()*2)
 </string>
           </argument>
@@ -177,9 +178,7 @@ cheat()
           <argument>
             <kind>1</kind>
             <string>//actual gui
-guiWidth = display_get_gui_width()
-guiHeight = display_get_gui_height()
-
+guiSize()
 //score    
 draw_text_shadow(guiWidth/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
 //last cheat
