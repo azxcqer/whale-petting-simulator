@@ -130,7 +130,7 @@ if cheatTimer > 0 {
     }
     
     else if cheatCheck("repeat"){
-        cheatString = cheatLast
+        cheatRepeat()
     }
 }
 else {
@@ -181,3 +181,5 @@ if b >= 1 {
 else {
     return false
 }
+#define cheatRepeat
+cheatString = cheatLast

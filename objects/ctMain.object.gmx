@@ -121,7 +121,10 @@ if keyboard_check_pressed(vk_anykey) {
         if keyboard_check_pressed(ord('T')) {
             global.debugger = !global.debugger
         }
-    
+        
+        if keyboard_check_pressed(ord('A')) {
+            cheatRepeat()
+        }
     }
     
     else {
