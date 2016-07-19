@@ -42,11 +42,11 @@
           <sprite>sprites\sZepelli</sprite>
           <sprite>sprites\sCaesar</sprite>
         </sprites>
-        <sprites name="Games">
-          <sprite>sprites\sRedCap</sprite>
-        </sprites>
         <sprite>sprites\sCoolGlasses</sprite>
       </sprites>
+    </sprites>
+    <sprites name="Games">
+      <sprite>sprites\sRedCap</sprite>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
     <sprite>sprites\cap</sprite>
