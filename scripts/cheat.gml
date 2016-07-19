@@ -5,127 +5,26 @@ if cheatTimer > 0 {
     //check the cheats
 
     //debug cheats
-    if global.debugger {
-    
-        if cheatCheck("whale"){
-            var w =  randCreate(oWhale)
-            with w {
-                depth = 5
-            }
-        }    
-    }
+    cheatDebug()
     
     //floaty block
-    //banana cheat
+    cheatFloaters()
     
-    if cheatCheck("banana"){
-        floatyCreate(sBanana);        
-    }
-    
-    else if cheatCheck("apple"){
-        floatyCreate(sApple);
-    }
-    
-    else if cheatCheck("goodtime"){
-        floatyCreate(sHeart);
-    }
-    
-    else if cheatCheck("badtime"){
-        floatyCreate(sBone);
-    }
-    //hatsblock
-    
-    else if cheatCheck("tophat"){
-        hatChange(sTopHat)
-    }
-    
-    else if cheatCheck("king")
-    or cheatCheck("queen"){
-        hatChange(sCrow)
-    }
-    
-    else if cheatCheck("cold"){
-        hatChange(sGorro)
-    }
-    
-    else if cheatCheck("modest"){
-        hatChange(sBowler)
-    }
-    
-    else if cheatCheck("bow"){
-        hatChange(sBow)
-    }
-    
-    else if cheatCheck("fez"){
-        hatChange(sFez)
-    }
-    
-    else if cheatCheck("meow"){
-        hatChange(sCat)
-    }
-    
-    else if cheatCheck("sombrero"){
-        hatChange(sSombrero)
-    }
-    
-    else if cheatCheck("straw"){
-        hatChange(sStraw)
-    }
-    
-    else if cheatCheck("rambo"){
-        hatChange(sBandana)
-    }
-    
-    else if cheatCheck("cap"){
-        hatChange(sCap)
-    }
+    //hatsblock    
+    cheatHats()
     
     //anime block
-    else if cheatCheck("gomugomu"){
-        hatChange(sGomu)
-    }
+    cheatAnime()
     
-    else if cheatCheck("dattebayo"){
-        hatChange(sNinja)
-    }
-    
-    else if cheatCheck("pika"){
-        hatChange(sTrainer)
-    }
-    
-    else if cheatCheck("gigadrill"){
-        hatChange(sCoolGlasses)
-    }
-    
-    //jojo
-    else if cheatCheck("oraoraora"){
-        hatChange(sOra)
-    }
-    
-    else if cheatCheck("zepelli"){
-        hatChange(sZepelli)
-    }
-    
-    else if cheatCheck("caesar"){
-        hatChange(sCaesar)
-    }
-    
-    else if cheatCheck("egg"){
-        hatChange(sEgg)
-    }
-    
-    else if cheatCheck("hat"){
+    if cheatCheck("hat"){
         randomHat(oHat.sprite_index)
     }
     
     //game block
-    
-    else if cheatCheck("mother"){
-        hatChange(sRedCap)
-    }   
+    cheatGame()
     
     //cleaner
-    else if cheatCheck("clean")
+    if cheatCheck("clean")
     or cheatCheck("clear"){
         with oFloaty {
             instance_destroy()
