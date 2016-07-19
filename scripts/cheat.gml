@@ -93,6 +93,10 @@ if cheatTimer > 0 {
         hatChange(sTrainer)
     }
     
+    else if cheatCheck("gigadrill"){
+        hatChange(sCoolGlasses)
+    }
+    
     //jojo
     else if cheatCheck("oraoraora"){
         hatChange(sOra)

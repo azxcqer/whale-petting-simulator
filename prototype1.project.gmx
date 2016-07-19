@@ -45,6 +45,7 @@
         <sprites name="Games">
           <sprite>sprites\sRedCap</sprite>
         </sprites>
+        <sprite>sprites\sCoolGlasses</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
