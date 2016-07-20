@@ -2,139 +2,42 @@
 ///cheat step
 if cheatTimer > 0 {
     cheatTimer --
+    cheating = true
     //check the cheats
 
     //debug cheats
-    if global.debugger {
-    
-        if cheatCheck("whale"){
-            var w =  randCreate(oWhale)
-            with w {
-                depth = 5
-            }
-        }    
-    }
-    
-    //floaty block
-    //banana cheat
-    
-    if cheatCheck("banana"){
-        floatyCreate(sBanana);        
-    }
-    
-    else if cheatCheck("apple"){
-        floatyCreate(sApple);
-    }
-    
-    else if cheatCheck("goodtime"){
-        floatyCreate(sHeart);
-    }
-    
-    else if cheatCheck("badtime"){
-        floatyCreate(sBone);
-    }
-    //hatsblock
-    
-    else if cheatCheck("tophat"){
-        hatChange(sTopHat)
-    }
-    
-    else if cheatCheck("king")
-    or cheatCheck("queen"){
-        hatChange(sCrow)
-    }
-    
-    else if cheatCheck("cold"){
-        hatChange(sGorro)
-    }
-    
-    else if cheatCheck("modest"){
-        hatChange(sBowler)
-    }
-    
-    else if cheatCheck("bow"){
-        hatChange(sBow)
-    }
-    
-    else if cheatCheck("fez"){
-        hatChange(sFez)
-    }
-    
-    else if cheatCheck("meow"){
-        hatChange(sCat)
-    }
-    
-    else if cheatCheck("sombrero"){
-        hatChange(sSombrero)
-    }
-    
-    else if cheatCheck("straw"){
-        hatChange(sStraw)
-    }
-    
-    else if cheatCheck("rambo"){
-        hatChange(sBandana)
-    }
-    
-    else if cheatCheck("cap"){
-        hatChange(sCap)
-    }
-    
-    //anime block
-    else if cheatCheck("gomugomu"){
-        hatChange(sGomu)
-    }
-    
-    else if cheatCheck("dattebayo"){
-        hatChange(sNinja)
-    }
-    
-    else if cheatCheck("pika"){
-        hatChange(sTrainer)
-    }
-    
-    else if cheatCheck("gigadrill"){
-        hatChange(sCoolGlasses)
-    }
-    
-    //jojo
-    else if cheatCheck("oraoraora"){
-        hatChange(sOra)
-    }
-    
-    else if cheatCheck("zepelli"){
-        hatChange(sZepelli)
-    }
-    
-    else if cheatCheck("caesar"){
-        hatChange(sCaesar)
-    }
-    
-    else if cheatCheck("egg"){
-        hatChange(sEgg)
-    }
-    
-    else if cheatCheck("hat"){
-        randomHat(oHat.sprite_index)
-    }
-    
-    //game block
-    
-    else if cheatCheck("mother"){
-        hatChange(sRedCap)
-    }   
-    
-    //cleaner
-    else if cheatCheck("clean")
-    or cheatCheck("clear"){
-        with oFloaty {
-            instance_destroy()
+    while cheating {
+        cheatDebug()
+        
+        //floaty block
+        cheatFloaters()
+        
+        //hatsblock    
+        cheatHats()
+        
+        //anime block
+        cheatAnime()
+        
+        if cheatCheck("hat"){
+            randomHat(oHat.sprite_index)
         }
-        global.hat = false
-    }
-    
-    else if cheatCheck("repeat"){
-        cheatRepeat()
+        
+        //game block
+        cheatGame()
+        
+        //cleaner
+        if cheatCheck("clean")
+        or cheatCheck("clear"){
+            with oFloaty {
+                instance_destroy()
+            }
+            global.hat = false
+        }
+        
+        else if cheatCheck("repeat"){
+            cheatRepeat()
+        }
+        cheating = false
     }
 }
 else {
@@ -148,6 +51,8 @@ cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
 cheatLast = "This whale should have some hats"
+//the variable to break the loop
+cheating = true
 
 #define cheatImput
 var a = keyboard_string,
@@ -180,10 +85,12 @@ if b >= 1 {
     cheatString = ""
     keyboard_string = ""
     audio_play_sound(sdPop,5,false)
+    cheating = false
     return true
 }
 else {
     return false
 }
+
 #define cheatRepeat
 cheatString = cheatLast
