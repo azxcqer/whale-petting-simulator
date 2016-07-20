@@ -69,9 +69,6 @@
         <script>scripts\floaty.gml</script>
       </scripts>
     </scripts>
-    <script>scripts\hatChange.gml</script>
-    <script>scripts\randCreate.gml</script>
-    <script>scripts\claim.gml</script>
     <scripts name="cheats">
       <script>scripts\cheat.gml</script>
       <script>scripts\cheatDebug.gml</script>
@@ -82,6 +79,9 @@
         <script>scripts\cheatGame.gml</script>
       </scripts>
     </scripts>
+    <script>scripts\hatChange.gml</script>
+    <script>scripts\randCreate.gml</script>
+    <script>scripts\claim.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_def</font>
