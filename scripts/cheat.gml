@@ -2,38 +2,42 @@
 ///cheat step
 if cheatTimer > 0 {
     cheatTimer --
+    cheating = true
     //check the cheats
 
     //debug cheats
-    cheatDebug()
-    
-    //floaty block
-    cheatFloaters()
-    
-    //hatsblock    
-    cheatHats()
-    
-    //anime block
-    cheatAnime()
-    
-    if cheatCheck("hat"){
-        randomHat(oHat.sprite_index)
-    }
-    
-    //game block
-    cheatGame()
-    
-    //cleaner
-    if cheatCheck("clean")
-    or cheatCheck("clear"){
-        with oFloaty {
-            instance_destroy()
+    while cheating {
+        cheatDebug()
+        
+        //floaty block
+        cheatFloaters()
+        
+        //hatsblock    
+        cheatHats()
+        
+        //anime block
+        cheatAnime()
+        
+        if cheatCheck("hat"){
+            randomHat(oHat.sprite_index)
         }
-        global.hat = false
-    }
-    
-    else if cheatCheck("repeat"){
-        cheatRepeat()
+        
+        //game block
+        cheatGame()
+        
+        //cleaner
+        if cheatCheck("clean")
+        or cheatCheck("clear"){
+            with oFloaty {
+                instance_destroy()
+            }
+            global.hat = false
+        }
+        
+        else if cheatCheck("repeat"){
+            cheatRepeat()
+        }
+        cheating = false
     }
 }
 else {
@@ -47,6 +51,8 @@ cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
 cheatLast = "This whale should have some hats"
+//the variable to break the loop
+cheating = true
 
 #define cheatImput
 var a = keyboard_string,
@@ -79,10 +85,12 @@ if b >= 1 {
     cheatString = ""
     keyboard_string = ""
     audio_play_sound(sdPop,5,false)
+    cheating = false
     return true
 }
 else {
     return false
 }
+
 #define cheatRepeat
 cheatString = cheatLast
