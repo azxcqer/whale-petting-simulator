@@ -35,6 +35,7 @@ guiSize()
 //display_set_gui_size(window_get_height()*2, window_get_width()*2)
 
 scoringInit()
+whaleScoreInit()
 </string>
           </argument>
         </arguments>
@@ -161,6 +162,7 @@ if keyboard_check_pressed(vk_anykey) {
 
 cheat()
 scoreStep()
+whaleScore()
 </string>
           </argument>
         </arguments>
@@ -190,6 +192,8 @@ fpsWarning()
 draw_text_shadow(guiWidth/2,0,scoreDraw(),c_white,c_black,1,fa_center,fa_top)
 //last cheat
 draw_text_shadow(1, guiHeight, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
+
+whaleScoreDraw()
 </string>
           </argument>
         </arguments>

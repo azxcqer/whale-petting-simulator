@@ -9,6 +9,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spWhale</sprite>
+    <sprite>sprites\spWhaleIco</sprite>
     <sprite>sprites\spHand</sprite>
     <sprite>sprites\spPlaceholder</sprite>
     <sprites name="floaters">
@@ -83,6 +84,7 @@
     <script>scripts\hatChange.gml</script>
     <script>scripts\randCreate.gml</script>
     <script>scripts\claim.gml</script>
+    <script>scripts\whaleScore.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_def</font>
