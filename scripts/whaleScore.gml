@@ -8,7 +8,7 @@ if whalesAdded < scoreLvl {
 
 #define whaleScoreInit
 ///how many whales were already added to be used
-whalesAdded = 1
+whalesAdded = 0
 //total of whales petted
 whalesTotal = 1
 //available whales

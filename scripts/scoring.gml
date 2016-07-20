@@ -5,19 +5,23 @@ score+=argument0
 #define scoringInit
 //just initialization
 scoreTarget = 0
-scoreLvl = 1
+scoreLvl = 0
 
+//the initial score
+scoreBase = 100
 //type of score resetting 0 is hard, 1 is soft
 //hard reset delet the score and set the target, while soft just set a new target
 scoreResetType = 1
 //how much the score increases each level
-scoreMod = 100
+scoreFixedMod = 50
+//sacaling mod
+scoreScalingMod = 10
 
 //setting the initial target
-scoreTargetSet()
+scoreTarget = scoreBase
 
 #define scoreTargetSet
-scoreTarget = (scoreLvl) * scoreMod
+scoreTarget = scoreTarget + scoreFixedMod + (scoreScalingMod * (scoreLvl-1))
 
 #define scoreStep
 if score >= scoreTarget{
