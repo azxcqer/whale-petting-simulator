@@ -86,6 +86,7 @@ if b >= 1 {
     keyboard_string = ""
     audio_play_sound(sdPop,5,false)
     cheating = false
+    scoring(10)
     return true
 }
 else {

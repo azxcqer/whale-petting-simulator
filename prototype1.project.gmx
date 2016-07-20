@@ -64,6 +64,7 @@
       <script>scripts\followy.gml</script>
       <script>scripts\fpsWarning.gml</script>
       <script>scripts\guiSize.gml</script>
+      <script>scripts\scoring.gml</script>
       <scripts name="animation">
         <script>scripts\shake.gml</script>
         <script>scripts\floaty.gml</script>
