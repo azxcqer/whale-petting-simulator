@@ -9,6 +9,18 @@ if cheatTimer > 0 {
     while cheating {
         cheatDebug()
         
+        //create a whale
+        
+        if whalesAvail > 0{
+            if cheatCheck("whale"){
+                var w =  randCreate(oWhale)
+                with w {
+                    depth = 5
+                }
+                whalesAvail--
+            }
+        }
+        
         //floaty block
         cheatFloaters()
         
