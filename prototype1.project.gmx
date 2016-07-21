@@ -45,9 +45,9 @@
         </sprites>
         <sprite>sprites\sCoolGlasses</sprite>
       </sprites>
-    </sprites>
-    <sprites name="Games">
-      <sprite>sprites\sRedCap</sprite>
+      <sprites name="Games">
+        <sprite>sprites\sRedCap</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
   </sprites>
