@@ -50,7 +50,6 @@
       <sprite>sprites\sRedCap</sprite>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
-    <sprite>sprites\cap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
