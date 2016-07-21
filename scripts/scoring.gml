@@ -6,6 +6,7 @@ score+=argument0
 //just initialization
 scoreTarget = 0
 scoreLvl = 0
+score = 0
 
 //the initial score
 scoreBase = 100
