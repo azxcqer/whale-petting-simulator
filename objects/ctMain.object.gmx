@@ -194,6 +194,7 @@ draw_text_shadow(guiWidth/2,0,scoreDraw(),c_white,c_black,1,fa_center,fa_top)
 draw_text_shadow(1, guiHeight, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 
 whaleScoreDraw()
+whaleScoreTip()
 </string>
           </argument>
         </arguments>

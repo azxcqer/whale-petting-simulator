@@ -18,6 +18,7 @@ if cheatTimer > 0 {
                     depth = 5
                 }
                 whalesAvail--
+                whaleTipReset()
             }
         }
         
