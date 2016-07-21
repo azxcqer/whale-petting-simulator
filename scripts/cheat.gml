@@ -15,7 +15,7 @@ if cheatTimer > 0 {
             if cheatCheck("whale"){
                 var w =  randCreate(oWhale)
                 with w {
-                    depth = 5
+                    depth = random_range(5,10)
                 }
                 whalesAvail--
                 whaleTipReset()
