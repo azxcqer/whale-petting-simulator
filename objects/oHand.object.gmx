@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>-10</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>clAcessory</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>///init
+event_inherited()
 go = false
 shakeInit()
-followyInit(oWhale,2)
 </string>
           </argument>
         </arguments>
@@ -52,11 +52,11 @@ followyInit(oWhale,2)
           <argument>
             <kind>1</kind>
             <string>///step thingies
+event_inherited()
 if go {
     shakeTrigger()
     go = false
 }
-followy()
 shake()
 </string>
           </argument>

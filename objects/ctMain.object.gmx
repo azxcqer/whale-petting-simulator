@@ -30,6 +30,12 @@ room_speed=60
 backgrounder()
 cheatInit()
 global.hat = false
+
+guiSize()
+//display_set_gui_size(window_get_height()*2, window_get_width()*2)
+
+scoringInit()
+whaleScoreInit()
 </string>
           </argument>
         </arguments>
@@ -76,8 +82,8 @@ petScore = 0
             <string>///view
     view_enabled = true;
     view_visible[0] = true;
-    view_wview[0] = 300;
-    view_hview[0] = 300;
+    view_wview[0] = 400;
+    view_hview[0] = 400;
 </string>
           </argument>
         </arguments>
@@ -118,11 +124,14 @@ if keyboard_check_pressed(vk_anykey) {
         if keyboard_check_pressed(ord('T')) {
             global.debugger = !global.debugger
         }
-    
+        
+        if keyboard_check_pressed(ord('A')) {
+            cheatRepeat()
+        }
     }
     
     else {
-        petScore++
+        score++
         oWhale.happyTimer = room_speed * 1
         cheatTimer = 1 * room_speed
         cheatImput()
@@ -152,6 +161,8 @@ if keyboard_check_pressed(vk_anykey) {
             <string>///other things
 
 cheat()
+scoreStep()
+whaleScore()
 </string>
           </argument>
         </arguments>
@@ -175,12 +186,15 @@ cheat()
           <argument>
             <kind>1</kind>
             <string>//actual gui
-var a = window_get_width(),
-    b = window_get_height();
+guiSize()
+fpsWarning()
 //score    
-draw_text_shadow(a/2,0,petScore,c_white,c_black,1,fa_center,fa_top)
+draw_text_shadow(guiWidth/2,0,scoreDraw(),c_white,c_black,1,fa_center,fa_top)
 //last cheat
-draw_text_shadow(1, b, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
+draw_text_shadow(1, guiHeight, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
+
+whaleScoreDraw()
+whaleScoreTip()
 </string>
           </argument>
         </arguments>
@@ -206,10 +220,10 @@ draw_text_shadow(1, b, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 if global.debugger {
     draw_text_simple(0,0,"debug")
     if cheatString = "" {
-        draw_text_shadow(window_get_width()/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(guiWidth/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
     }
     else {
-        draw_text_shadow(window_get_width()/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
+        draw_text_shadow(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
     }
 }
 </string>
