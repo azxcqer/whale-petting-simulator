@@ -61,10 +61,13 @@
           <sprite>sprites\sZepelli</sprite>
           <sprite>sprites\sCaesar</sprite>
         </sprites>
+        <sprites name="Drill">
+          <sprite>sprites\sCoolGlasses</sprite>
+          <sprite>sprites\sCoolerGlasses</sprite>
+        </sprites>
         <sprite>sprites\sGomu</sprite>
         <sprite>sprites\sNinja</sprite>
         <sprite>sprites\sTrainer</sprite>
-        <sprite>sprites\sCoolGlasses</sprite>
       </sprites>
       <sprites name="Games">
         <sprite>sprites\sRedCap</sprite>
