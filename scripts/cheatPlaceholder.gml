@@ -1,3 +1,4 @@
+/*
 if cheatCheck(""){
     hatChange()
 }
