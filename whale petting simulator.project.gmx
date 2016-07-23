@@ -22,6 +22,37 @@
     </sprites>
     <sprite>sprites\sHatMarker1</sprite>
     <sprites name="Hats">
+      <sprites name="Cartoons">
+        <sprites name="Pines">
+          <sprite>sprites\sGrunkle</sprite>
+          <sprite>sprites\sPines</sprite>
+          <sprite>sprites\sMab</sprite>
+          <sprite>sprites\sStan</sprite>
+        </sprites>
+        <sprites name="Benders">
+          <sprite>sprites\sAir</sprite>
+          <sprite>sprites\sEarth</sprite>
+          <sprite>sprites\sWater</sprite>
+          <sprite>sprites\sFire</sprite>
+        </sprites>
+        <sprites name="Eds">
+          <sprite>sprites\sE</sprite>
+          <sprite>sprites\sEE</sprite>
+          <sprite>sprites\sEEE</sprite>
+        </sprites>
+        <sprites name="Lab">
+          <sprite>sprites\sLab</sprite>
+          <sprite>sprites\sDark</sprite>
+        </sprites>
+        <sprites name="Justice">
+          <sprite>sprites\sBat</sprite>
+          <sprite>sprites\sWonder</sprite>
+          <sprite>sprites\sFast</sprite>
+          <sprite>sprites\sRing</sprite>
+          <sprite>sprites\sSupes</sprite>
+        </sprites>
+        <sprite>sprites\sSamurai</sprite>
+      </sprites>
       <sprite>sprites\sTopHat</sprite>
       <sprite>sprites\sCrow</sprite>
       <sprite>sprites\sGorro</sprite>
@@ -34,6 +65,7 @@
       <sprite>sprites\sBandana</sprite>
       <sprite>sprites\sEgg</sprite>
       <sprite>sprites\sCap</sprite>
+      <sprite>sprites\sRobber</sprite>
       <sprites name="Anime">
         <sprite>sprites\sGomu</sprite>
         <sprite>sprites\sNinja</sprite>
