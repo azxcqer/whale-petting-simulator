@@ -42,3 +42,6 @@ else if cheatCheck("rambo"){
 else if cheatCheck("cap"){
     hatChange(sCap)
 }
+    else if cheatCheck("thief"){
+        hatChange(sRobber)
+    }

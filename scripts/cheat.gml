@@ -27,6 +27,7 @@ if cheatTimer > 0 {
         
         //cheats by aprox use I guess
         //hats
+        cheatToon()
         cheatAnime()
         cheatGame() 
         cheatHats()

@@ -13,6 +13,9 @@ else if cheatCheck("pika"){
 else if cheatCheck("gigadrill"){
     hatChange(sCoolGlasses)
 }
+else if cheatCheck("simon"){
+        hatChange(sCoolerGlasses)
+    }
 
 //jojo
 else if cheatCheck("oraoraora"){

@@ -115,6 +115,7 @@
         <script>scripts\cheatHats.gml</script>
         <script>scripts\cheatAnime.gml</script>
         <script>scripts\cheatGame.gml</script>
+        <script>scripts\cheatToon.gml</script>
         <script>scripts\cheatPlaceholder.gml</script>
       </scripts>
     </scripts>
