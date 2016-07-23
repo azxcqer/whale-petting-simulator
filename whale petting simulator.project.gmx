@@ -110,6 +110,7 @@
         <script>scripts\cheatHats.gml</script>
         <script>scripts\cheatAnime.gml</script>
         <script>scripts\cheatGame.gml</script>
+        <script>scripts\cheatPlaceholder.gml</script>
       </scripts>
     </scripts>
     <script>scripts\hatChange.gml</script>
