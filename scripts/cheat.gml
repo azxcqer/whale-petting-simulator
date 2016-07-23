@@ -3,13 +3,14 @@
 if cheatTimer > 0 {
     cheatTimer --
     cheating = true
+    curHat = oHat.sprite_index
     //check the cheats
     while cheating {
         //debug cheats
         cheatDebug()
 
         if cheatCheck("hat"){
-            randomHat(oHat.sprite_index)
+            randomHat(curHat)
         }
                 
         //create a whale        
@@ -60,6 +61,7 @@ cheatTimer = 0
 cheatString = "herpderp"
 cheatMaxLength = 25
 cheatLast = "This whale should have some hats"
+curHat = 0
 //the variable to break the loop
 cheating = true
 
