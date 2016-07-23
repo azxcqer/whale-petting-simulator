@@ -10,7 +10,7 @@ if cheatTimer > 0 {
         cheatDebug()
 
         if cheatCheck("hat"){
-            randomHat(curHat)
+            randomHat()
         }
                 
         //create a whale        
