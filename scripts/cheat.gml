@@ -65,6 +65,8 @@ cheatLast = "This whale should have some hats"
 curHat = 0
 //the variable to break the loop
 cheating = true
+//to play the cheat sound or not
+cheatMute = false
 
 #define cheatImput
 var a = keyboard_string,
@@ -96,9 +98,12 @@ if b >= 1 {
     }
     cheatString = ""
     keyboard_string = ""
-    audio_play_sound(sdPop,5,false)
+    if !cheatMute {
+        audio_play_sound(sdPop,5,false)
+    }
     cheating = false
     scoring(10)
+    cheatMute = false
     return true
 }
 else {
@@ -107,3 +112,4 @@ else {
 
 #define cheatRepeat
 cheatString = cheatLast
+cheatMute = true
