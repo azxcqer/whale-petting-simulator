@@ -13,3 +13,6 @@ else if cheatCheck("goodtime"){
 else if cheatCheck("badtime"){
     floatyCreate(sBone);
 }
+else if cheatCheck("weird"){
+        floatyCreate(sWeird)
+}
