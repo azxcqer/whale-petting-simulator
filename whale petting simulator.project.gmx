@@ -108,9 +108,6 @@
       </scripts>
     </scripts>
     <scripts name="cheats">
-      <script>scripts\cheat.gml</script>
-      <script>scripts\cheatDebug.gml</script>
-      <script>scripts\cheatFloaters.gml</script>
       <scripts name="hats">
         <script>scripts\cheatHats.gml</script>
         <script>scripts\cheatAnime.gml</script>
@@ -118,6 +115,9 @@
         <script>scripts\cheatToon.gml</script>
         <script>scripts\cheatPlaceholder.gml</script>
       </scripts>
+      <script>scripts\cheat.gml</script>
+      <script>scripts\cheatDebug.gml</script>
+      <script>scripts\cheatFloaters.gml</script>
     </scripts>
     <script>scripts\hatChange.gml</script>
     <script>scripts\randCreate.gml</script>
