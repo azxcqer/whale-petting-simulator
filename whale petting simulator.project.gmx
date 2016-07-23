@@ -53,6 +53,20 @@
         </sprites>
         <sprite>sprites\sSamurai</sprite>
       </sprites>
+      <sprites name="Anime">
+        <sprites name="Jojo">
+          <sprite>sprites\sOra</sprite>
+          <sprite>sprites\sZepelli</sprite>
+          <sprite>sprites\sCaesar</sprite>
+        </sprites>
+        <sprite>sprites\sGomu</sprite>
+        <sprite>sprites\sNinja</sprite>
+        <sprite>sprites\sTrainer</sprite>
+        <sprite>sprites\sCoolGlasses</sprite>
+      </sprites>
+      <sprites name="Games">
+        <sprite>sprites\sRedCap</sprite>
+      </sprites>
       <sprite>sprites\sTopHat</sprite>
       <sprite>sprites\sCrow</sprite>
       <sprite>sprites\sGorro</sprite>
@@ -66,20 +80,6 @@
       <sprite>sprites\sEgg</sprite>
       <sprite>sprites\sCap</sprite>
       <sprite>sprites\sRobber</sprite>
-      <sprites name="Anime">
-        <sprite>sprites\sGomu</sprite>
-        <sprite>sprites\sNinja</sprite>
-        <sprite>sprites\sTrainer</sprite>
-        <sprites name="Jojo">
-          <sprite>sprites\sOra</sprite>
-          <sprite>sprites\sZepelli</sprite>
-          <sprite>sprites\sCaesar</sprite>
-        </sprites>
-        <sprite>sprites\sCoolGlasses</sprite>
-      </sprites>
-      <sprites name="Games">
-        <sprite>sprites\sRedCap</sprite>
-      </sprites>
     </sprites>
     <sprite>sprites\sHatMarker2</sprite>
   </sprites>
