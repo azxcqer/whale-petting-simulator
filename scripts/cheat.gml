@@ -4,13 +4,15 @@ if cheatTimer > 0 {
     cheatTimer --
     cheating = true
     //check the cheats
-
-    //debug cheats
     while cheating {
+        //debug cheats
         cheatDebug()
-        
-        //create a whale
-        
+
+        if cheatCheck("hat"){
+            randomHat(oHat.sprite_index)
+        }
+                
+        //create a whale        
         if whalesAvail > 0{
             if cheatCheck("whale"){
                 var w =  randCreate(oWhale)
@@ -22,21 +24,14 @@ if cheatTimer > 0 {
             }
         }
         
-        //floaty block
-        cheatFloaters()
-        
-        //hatsblock    
-        cheatHats()
-        
-        //anime block
+        //cheats by aprox use I guess
+        //hats
         cheatAnime()
-        
-        if cheatCheck("hat"){
-            randomHat(oHat.sprite_index)
-        }
-        
-        //game block
-        cheatGame()
+        cheatGame() 
+        cheatHats()
+
+        //floaters
+        cheatFloaters()
         
         //cleaner
         if cheatCheck("clean")
@@ -46,10 +41,11 @@ if cheatTimer > 0 {
             }
             global.hat = false
         }
-        
+        //repeat
         else if cheatCheck("repeat"){
             cheatRepeat()
         }
+        //breaking the while loop
         cheating = false
     }
 }
