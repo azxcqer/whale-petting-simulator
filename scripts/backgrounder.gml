@@ -8,3 +8,4 @@ if !background_visible[0] {
 
 background_yscale[0] = 4
 background_xscale[0] = 4
+background_hspeed[0] = 6
