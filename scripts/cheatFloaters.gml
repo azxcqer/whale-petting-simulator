@@ -16,3 +16,7 @@ else if cheatCheck("badtime"){
 else if cheatCheck("weird"){
         floatyCreate(sWeird)
 }
+else if cheatCheck("pug")
+or cheatCheck("dog"){
+    floatyCreate(sPug)
+}

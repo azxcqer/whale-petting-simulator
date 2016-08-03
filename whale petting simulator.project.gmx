@@ -17,6 +17,7 @@
       <sprite>sprites\sApple</sprite>
       <sprite>sprites\sJawbreaker</sprite>
       <sprite>sprites\sWeird</sprite>
+      <sprite>sprites\sPug</sprite>
       <sprites name="ubertalos">
         <sprite>sprites\sHeart</sprite>
         <sprite>sprites\sBone</sprite>
