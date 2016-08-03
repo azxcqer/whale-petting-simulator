@@ -114,6 +114,7 @@
         <script>scripts\cheatGame.gml</script>
         <script>scripts\cheatToon.gml</script>
         <script>scripts\cheatPlaceholder.gml</script>
+        <script>scripts\cheatBgSpeed.gml</script>
       </scripts>
       <script>scripts\cheat.gml</script>
       <script>scripts\cheatDebug.gml</script>
