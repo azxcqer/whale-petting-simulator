@@ -5,3 +5,6 @@ if background_index[0] = -1 {
 if !background_visible[0] {
     background_visible[0] = true;
     }
+
+background_yscale[0] = 4
+background_xscale[0] = 4
