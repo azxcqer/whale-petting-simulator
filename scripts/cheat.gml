@@ -102,7 +102,7 @@ if b >= 1 {
         audio_play_sound(sdPop,5,false)
     }
     cheating = false
-    scoring(10)
+    scoring(10 * whalesTotal)
     cheatMute = false
     return true
 }

@@ -131,7 +131,7 @@ if keyboard_check_pressed(vk_anykey) {
     }
     
     else {
-        score++
+        score += 1 * whalesTotal
         oWhale.happyTimer = room_speed * 1
         cheatTimer = 1 * room_speed
         cheatImput()
