@@ -96,6 +96,7 @@
   <scripts name="scripts">
     <scripts name="engine">
       <script>scripts\draw_text_shadow.gml</script>
+      <script>scripts\shadowText.gml</script>
       <script>scripts\backgrounder.gml</script>
       <script>scripts\notInciRandom_range.gml</script>
       <script>scripts\resize.gml</script>
@@ -107,6 +108,7 @@
         <script>scripts\shake.gml</script>
         <script>scripts\floaty.gml</script>
       </scripts>
+      <script>scripts\setAligns.gml</script>
     </scripts>
     <scripts name="cheats">
       <scripts name="hats">
