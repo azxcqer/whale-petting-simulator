@@ -49,13 +49,13 @@ if whalesAvail >= 1{
         draw_sprite_ext(whaleScoreIco, 0, 0  + (i * whaleScoreIcoSpacing * whaleScoreIcoSize), 0, whaleScoreIcoSize, whaleScoreIcoSize,0,c_white,1)
     }
     if extra{
-        draw_text_shadow((1 + whales) * whaleScoreIcoSpacing, 0, "x" + string(whalesAvail), c_white, c_black, 1, fa_center, fa_top)
+        shadowTextSimple((1 + whales) * whaleScoreIcoSpacing, 0, "x" + string(whalesAvail) )
     }
 }
 
 #define whaleScoreTip
 if whaleTipTimer <= 0 {
-    draw_text_shadow(10, 2 + sprite_get_height(whaleScoreIco), "^ try typing whale", c_white, c_black,1 ,fa_left, fa_top)
+    shadowTextSimple(10, 2 + sprite_get_height(whaleScoreIco), "^ try typing whale")
 }
 
 #define whaleTipReset
