@@ -230,13 +230,15 @@ shadowTextReset()
             <string>///debug text
 
 if global.debugger {
-    draw_text_simple(0,0,"debug")
+    shadowTextSimple(0,0,"debug")
     if cheatString = "" {
-        draw_text_shadow(guiWidth/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
+        draw_set_halign(1)
+        shadowTextSimple(guiWidth/2,20,"empty")
     }
     else {
-        draw_text_shadow(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
+        shadowTextSimple(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer))
     }
+    shadowTextReset()
 }
 </string>
           </argument>
