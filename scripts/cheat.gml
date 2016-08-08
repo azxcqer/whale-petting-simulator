@@ -21,6 +21,7 @@ if cheatTimer > 0 {
                     depth = random_range(5,10)
                 }
                 whalesAvail--
+                whalesTotal++
                 whaleTipReset()
             }
         }

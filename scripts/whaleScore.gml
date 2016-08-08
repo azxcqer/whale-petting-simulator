@@ -3,8 +3,7 @@
 if whalesAdded < scoreLvl {
     var a = scoreLvl - whalesAdded;
     whalesAvail += a
-    whalesTotal += a
-    whalesAdded = whalesTotal
+    whalesAdded += a
 }
 
 //should I tip? 10% will do?
