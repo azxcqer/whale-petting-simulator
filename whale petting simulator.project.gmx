@@ -95,7 +95,6 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="engine">
-      <script>scripts\draw_text_shadow.gml</script>
       <script>scripts\shadowText.gml</script>
       <script>scripts\backgrounder.gml</script>
       <script>scripts\notInciRandom_range.gml</script>
