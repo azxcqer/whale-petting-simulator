@@ -25,7 +25,7 @@ if cheatTimer > 0 {
             }
         }
         
-        cheatBgSpeed()
+        cheatBgs()
         //cheats by aprox use I guess
         //hats
         cheatToon()
