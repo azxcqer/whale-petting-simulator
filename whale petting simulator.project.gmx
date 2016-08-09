@@ -91,6 +91,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
+    <background>background\bg_temp2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -107,6 +108,7 @@
       <script>scripts\fpsWarning.gml</script>
       <script>scripts\guiSize.gml</script>
       <script>scripts\scoring.gml</script>
+      <script>scripts\setBG.gml</script>
     </scripts>
     <scripts name="cheats">
       <scripts name="hats">
@@ -119,6 +121,7 @@
       <script>scripts\cheat.gml</script>
       <script>scripts\cheatDebug.gml</script>
       <script>scripts\cheatFloaters.gml</script>
+      <script>scripts\cheatBgs.gml</script>
     </scripts>
     <script>scripts\hatChange.gml</script>
     <script>scripts\randCreate.gml</script>

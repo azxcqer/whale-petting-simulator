@@ -26,6 +26,7 @@ if cheatTimer > 0 {
             }
         }
         
+        cheatBgs()
         //cheats by aprox use I guess
         //hats
         cheatToon()
@@ -43,6 +44,7 @@ if cheatTimer > 0 {
                 instance_destroy()
             }
             global.hat = false
+            background_hspeed[0] = 6
         }
         //repeat
         else if cheatCheck("repeat"){
