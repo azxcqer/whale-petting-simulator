@@ -95,6 +95,10 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="engine">
+      <scripts name="animation">
+        <script>scripts\shake.gml</script>
+        <script>scripts\floaty.gml</script>
+      </scripts>
       <script>scripts\draw_text_shadow.gml</script>
       <script>scripts\backgrounder.gml</script>
       <script>scripts\notInciRandom_range.gml</script>
@@ -103,10 +107,6 @@
       <script>scripts\fpsWarning.gml</script>
       <script>scripts\guiSize.gml</script>
       <script>scripts\scoring.gml</script>
-      <scripts name="animation">
-        <script>scripts\shake.gml</script>
-        <script>scripts\floaty.gml</script>
-      </scripts>
     </scripts>
     <scripts name="cheats">
       <scripts name="hats">
