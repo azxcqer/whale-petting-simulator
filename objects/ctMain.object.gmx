@@ -185,16 +185,28 @@ whaleScore()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//actual gui
+            <string>///actual gui
 guiSize()
-fpsWarning()
-//score    
-draw_text_shadow(guiWidth/2,0,scoreDraw(),c_white,c_black,1,fa_center,fa_top)
-//last cheat
-draw_text_shadow(1, guiHeight, cheatLast, c_white,c_black, 1, fa_left, fa_bottom)
 
-whaleScoreDraw()
+//the tip to tipping whale
 whaleScoreTip()
+
+//the low fps warning
+setAligns(2,0)
+fpsWarning()
+
+//the whale score
+draw_set_halign(1)
+whaleScoreDraw()
+
+//score
+shadowTextSimple(guiWidth/2,0,scoreDraw())
+
+//last cheat
+setAligns(0, 2)
+shadowTextSimple(1, guiHeight, cheatLast)
+
+shadowTextReset()
 </string>
           </argument>
         </arguments>
@@ -218,13 +230,15 @@ whaleScoreTip()
             <string>///debug text
 
 if global.debugger {
-    draw_text_simple(0,0,"debug")
+    shadowTextSimple(0,0,"debug")
     if cheatString = "" {
-        draw_text_shadow(guiWidth/2,20,"empty",c_white,c_black,1,fa_center,fa_top)
+        draw_set_halign(1)
+        shadowTextSimple(guiWidth/2,20,"empty")
     }
     else {
-        draw_text_shadow(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer),c_white,c_black,1,fa_center,fa_top)
+        shadowTextSimple(guiHeight/2,20,cheatString + " " + "#" + string(cheatTimer))
     }
+    shadowTextReset()
 }
 </string>
           </argument>
