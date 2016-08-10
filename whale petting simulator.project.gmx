@@ -97,11 +97,11 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="engine">
-      <script>scripts\shadowText.gml</script>
       <scripts name="animation">
         <script>scripts\shake.gml</script>
         <script>scripts\floaty.gml</script>
       </scripts>
+      <script>scripts\shadowText.gml</script>
       <script>scripts\backgrounder.gml</script>
       <script>scripts\notInciRandom_range.gml</script>
       <script>scripts\resize.gml</script>
