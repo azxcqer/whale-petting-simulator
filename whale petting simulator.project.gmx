@@ -17,6 +17,7 @@
       <sprite>sprites\sApple</sprite>
       <sprite>sprites\sJawbreaker</sprite>
       <sprite>sprites\sWeird</sprite>
+      <sprite>sprites\sPug</sprite>
       <sprites name="ubertalos">
         <sprite>sprites\sHeart</sprite>
         <sprite>sprites\sBone</sprite>
@@ -90,11 +91,17 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
+    <background>background\bg_temp2</background>
+    <background>background\bgSpace</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="engine">
-      <script>scripts\draw_text_shadow.gml</script>
+      <scripts name="animation">
+        <script>scripts\shake.gml</script>
+        <script>scripts\floaty.gml</script>
+      </scripts>
+      <script>scripts\shadowText.gml</script>
       <script>scripts\backgrounder.gml</script>
       <script>scripts\notInciRandom_range.gml</script>
       <script>scripts\resize.gml</script>
@@ -102,10 +109,8 @@
       <script>scripts\fpsWarning.gml</script>
       <script>scripts\guiSize.gml</script>
       <script>scripts\scoring.gml</script>
-      <scripts name="animation">
-        <script>scripts\shake.gml</script>
-        <script>scripts\floaty.gml</script>
-      </scripts>
+      <script>scripts\setBG.gml</script>
+      <script>scripts\setAligns.gml</script>
     </scripts>
     <scripts name="cheats">
       <scripts name="hats">
@@ -118,6 +123,7 @@
       <script>scripts\cheat.gml</script>
       <script>scripts\cheatDebug.gml</script>
       <script>scripts\cheatFloaters.gml</script>
+      <script>scripts\cheatBgs.gml</script>
     </scripts>
     <script>scripts\hatChange.gml</script>
     <script>scripts\randCreate.gml</script>

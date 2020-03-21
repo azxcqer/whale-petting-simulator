@@ -21,10 +21,12 @@ if cheatTimer > 0 {
                     depth = random_range(5,10)
                 }
                 whalesAvail--
+                whalesTotal++
                 whaleTipReset()
             }
         }
         
+        cheatBgs()
         //cheats by aprox use I guess
         //hats
         cheatToon()
@@ -42,6 +44,7 @@ if cheatTimer > 0 {
                 instance_destroy()
             }
             global.hat = false
+            background_hspeed[0] = 6
         }
         //repeat
         else if cheatCheck("repeat"){
@@ -102,7 +105,7 @@ if b >= 1 {
         audio_play_sound(sdPop,5,false)
     }
     cheating = false
-    scoring(10)
+    scoring(10 * whalesTotal)
     cheatMute = false
     return true
 }
